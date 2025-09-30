@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Waiting for device..."
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/leftBattery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Left: —"
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/rightBattery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Right: —"
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/caseBattery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Case: —"
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tip: Some earbuds (eg. Apple/Google-owned) may not broadcast battery to Android."
+        android:textSize="12sp"/>
+
+</LinearLayout>
